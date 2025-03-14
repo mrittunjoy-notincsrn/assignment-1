@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: "Fira Sans", sans-serif;
+}
+
+/* shared section */
+
+.margin{
+    margin: 24px 160px;
+}
+
+.btn-1{
+    color: #006A50;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: transparent;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.btn-1:hover{
+    background-color: #006A50;
+    color: white;
+}
+
+.btn-2{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: #006A50;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.btn-2:hover{
+    background-color: #004b38;
+}
+
+/* header section */
+
+.page-title{
+    display: flex;
+    justify-content: space-between;
+}
+.title-name{
+    color: #0E0E0E;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.banner{
+    display: flex;
+    gap: 60px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 0 60px;
+}
+/* .banner-description{
+    margin-top: 110px;
+} */
+.banner-description h4{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 108px;
+}
+.banner-description h1{
+    color: #0E0E0E;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.banner img{
+    margin: 80px 0;
+}
+
+/* main section */
+
+
+/* footer section */
+
+
