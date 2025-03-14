@@ -185,6 +185,31 @@ header{
 .vision-3 button:hover{
     background-color: #9f7a24;
 }
+.vision-quote{
+    background-color: white;
+    padding: 24px;
+    background-image:url(assets/quote-bg.png);
+    background-position: 24px 24px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+.vision-quote-text{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+.vision-quote h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+
+}
+.chief-adviser{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+}
 
 /* footer section */
 
