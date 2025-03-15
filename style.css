@@ -233,9 +233,9 @@ header{
     background-color: white;
     border-radius: 24px;
 }
-.news2{
+/* .news2{
     flex-direction: row-reverse;
-}
+} */
 .news1-img{
     border-radius: 24px;
 }
