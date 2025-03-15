@@ -5,6 +5,7 @@
     font-family: "Fira Sans", sans-serif;
 }
 body{
+    margin: 0;
     background-color: #F5F5F5;
 }
 
@@ -12,6 +13,11 @@ body{
 
 .margin{
     margin: 24px 160px;
+}
+.title{
+    font-size: 32px;
+    color: #0E0E0E;
+    font-weight: bold;
 }
 .title-name{
     font-size: 40px;
@@ -76,6 +82,7 @@ body{
 .page-title{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .banner{
@@ -312,6 +319,7 @@ header{
 /* main - newletter */
 .newsletter{
     margin-top: 60px;
+    margin-bottom: 60px;
     background-color: #C6E4D6;
     border-radius: 24px;
     padding: 80px 260px;
@@ -348,5 +356,25 @@ header{
 
 
 /* footer section */
+footer{
+    background-color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    flex-direction: column;
+    gap: 24px;
+}
+footer hr{
+    width: 70%;
+    background-color: rgba(14, 14, 14, 0.1);
+    height: 1px;
+    border: 0;
+}
+footer .icon-box{
+    display: flex;
+    gap: 20px;
+}
 
 
