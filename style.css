@@ -256,10 +256,59 @@ header{
 }
 
 /* main donation section */
-
-.donation-heading{
-    margin: 60px 0px 24px;
+.donations{
+    text-align: center;
+    margin-top: 60px;
 }
+.donation-heading{
+    margin-bottom: 24px;
+}
+.donation-description{
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.known-donation input{
+    display: none;
+}
+.known-donation input:checked + label {
+    background: rgba(198, 228, 214, 1);
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.known-donation{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 32px auto;
+}
+.known-donation label {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: bold;
+    padding: 40px;
+    background: white;
+    border-radius: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+.custom-donation{
+    margin: 0 100px 32px;
+}
+.custom-donation-amount{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.custom-donation-amount::placeholder{
+    color: rgba(14, 14, 14, 0.15);  
+}
+
 
 /* footer section */
 
